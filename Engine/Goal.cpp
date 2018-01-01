@@ -18,6 +18,7 @@ void Goal::Respawn(std::mt19937 & rng, const Board & brd, const Snake & snake)
 	} while (snake.IsInTile(newLoc));
 
 	loc = newLoc;
+	//dude DICKS amirite?
 }
 
 void Goal::Draw(Board & brd) const
